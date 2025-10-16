@@ -1,0 +1,14 @@
+[project]
+name = "vocabolario_italiano_di_base"
+version = "0.1.0"
+description = "Parser per il Nuovo vocabolario di base della lingua italiana"
+authors = [
+    { name = "Alessandro Conflitti"}
+]
+license = "MIT License"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pdfplumber>=0.11.7",
+    "pymupdf>=1.26.5",
+]
