@@ -95,7 +95,7 @@ def text_parser():
             footer = f"Il Nuovo vocabolario di base della lingua italiana - Tullio De Mauro - Internazionale (dizionario.internazionale.it/nuovovocabolariodibase 1) {index + 1}"
             aux = aux.replace(footer, "")
             for letter in letters:
-                aux = aux.replace("\n" + letter + "\n", "\n")
+                aux = aux.replace("\n" + letter + "\n", ",\n")
             text_pages.append(aux)
 
     parole = "\n".join(text_pages)
@@ -114,6 +114,14 @@ def text_parser():
             break
     parole = parole.strip()
     return parole
+
+
+def livello1(field1, field2):
+    return field2.startswith(field1) or " " + field1 in field2
+
+
+def livello2(field1, field2):
+    return " " + field1 in field2 or "." + field1 in field2
 
 
 clean_bold = clean_set(find_bold_italics()[0])
@@ -139,7 +147,7 @@ else:
     clean_words[-1] = clean_words[-1] + ", " + words[-1]
 
 words_dict = dict()
-for word in clean_words:
+for word in clean_words[1:]:
     aux = word.split(" ")
     while len(aux) > 1 and "." not in aux[1]:
         aux[0] = aux[0] + " " + aux[1]
@@ -206,3 +214,47 @@ print(
 )
 
 print("-- numero di lemmi con marca d'uso «parola di alto uso»:", len(alto_uso), "\n")
+
+print("\n########################### Esempi di analisi ###########################")
+
+s_m_fond = [
+    (lemma, words_dict[lemma])
+    for lemma in words_dict
+    if words_dict[lemma]["marca_d_uso"] == "parola fondamentale"
+    and livello1("s.", words_dict[lemma]["qualifica_grammaticale"])
+    and livello2("m.", words_dict[lemma]["qualifica_grammaticale"])
+]
+
+print(
+    f"\nNel vocabolario ci sono {len(s_m_fond)} lemmi sostantivi maschili "
+    + "con marca d'uso «parola fondamentale».\n"
+)
+
+tr_intr = [
+    (lemma, words_dict[lemma])
+    for lemma in words_dict
+    if livello1("v.", words_dict[lemma]["qualifica_grammaticale"])
+    and livello2("tr.", words_dict[lemma]["qualifica_grammaticale"])
+    and livello2("intr.", words_dict[lemma]["qualifica_grammaticale"])
+]
+
+print(
+    f"\nNel vocabolario ci sono {len(tr_intr)} lemmi che sono verbi sia "
+    + "transitivi che intransitivi.\n"
+)
+
+pronom_tr_intr = [
+    (lemma, words_dict[lemma])
+    for lemma in words_dict
+    if livello1("v.", words_dict[lemma]["qualifica_grammaticale"])
+    and livello2("tr.", words_dict[lemma]["qualifica_grammaticale"])
+    and livello2("intr.", words_dict[lemma]["qualifica_grammaticale"])
+    and livello2("pronom.", words_dict[lemma]["qualifica_grammaticale"])
+]
+
+print(
+    "\nQuesto è l'elenco dei verbi pronominali che sono sia transitivi che"
+    + " intransitivi:",
+    pronom_tr_intr,
+    "\n",
+)

@@ -3386,8 +3386,13 @@
     },
     "azzurro": {
         "parola": "azzurro",
-        "qualifica_grammaticale": "s.m., agg. 1babbo s.m.",
+        "qualifica_grammaticale": "s.m., agg.",
         "marca_d_uso": "parola fondamentale"
+    },
+    "1babbo": {
+        "parola": "babbo",
+        "qualifica_grammaticale": "s.m.",
+        "marca_d_uso": "parola di alto uso"
     },
     "baby": {
         "parola": "baby",
@@ -4736,8 +4741,13 @@
     },
     "buttare": {
         "parola": "buttare",
-        "qualifica_grammaticale": "v.tr. e intr. cabina s.f.",
+        "qualifica_grammaticale": "v.tr. e intr.",
         "marca_d_uso": "parola fondamentale"
+    },
+    "cabina": {
+        "parola": "cabina",
+        "qualifica_grammaticale": "s.f.",
+        "marca_d_uso": "parola di alto uso"
     },
     "cacao": {
         "parola": "cacao",
@@ -9231,8 +9241,13 @@
     },
     "custodire": {
         "parola": "custodire",
-        "qualifica_grammaticale": "v.tr. 1da prep.",
+        "qualifica_grammaticale": "v.tr.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "1da": {
+        "parola": "da",
+        "qualifica_grammaticale": "prep.",
+        "marca_d_uso": "parola fondamentale"
     },
     "dado": {
         "parola": "dado",
@@ -10986,8 +11001,13 @@
     },
     "1duro": {
         "parola": "duro",
-        "qualifica_grammaticale": "agg., s.m., avv. 1e s.f. e m.inv.",
+        "qualifica_grammaticale": "agg., s.m., avv.",
         "marca_d_uso": "parola fondamentale"
+    },
+    "1e": {
+        "parola": "e",
+        "qualifica_grammaticale": "s.f. e m.inv.",
+        "marca_d_uso": "parola di alta disponibilità"
     },
     "2e": {
         "parola": "e",
@@ -12121,8 +12141,13 @@
     },
     "extra": {
         "parola": "extra",
-        "qualifica_grammaticale": "agg.inv., s.m. e f.inv. 2fa avv.",
+        "qualifica_grammaticale": "agg.inv., s.m. e f.inv.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "2fa": {
+        "parola": "fa",
+        "qualifica_grammaticale": "avv.",
+        "marca_d_uso": "parola fondamentale"
     },
     "fabbrica": {
         "parola": "fabbrica",
@@ -13746,8 +13771,13 @@
     },
     "futuro": {
         "parola": "futuro",
-        "qualifica_grammaticale": "agg., s.m. gabbia s.f.",
+        "qualifica_grammaticale": "agg., s.m.",
         "marca_d_uso": "parola fondamentale"
+    },
+    "gabbia": {
+        "parola": "gabbia",
+        "qualifica_grammaticale": "s.f.",
+        "marca_d_uso": "parola di alto uso"
     },
     "galassia": {
         "parola": "galassia",
@@ -14866,7 +14896,12 @@
     },
     "gustoso": {
         "parola": "gustoso",
-        "qualifica_grammaticale": "agg. hamburger s.m.inv.",
+        "qualifica_grammaticale": "agg.",
+        "marca_d_uso": "parola di alta disponibilità"
+    },
+    "hamburger": {
+        "parola": "hamburger",
+        "qualifica_grammaticale": "s.m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "hobby": {
@@ -14886,8 +14921,13 @@
     },
     "hyperlink": {
         "parola": "hyperlink",
-        "qualifica_grammaticale": "s.m.inv. 1i s.f. e m.inv.",
+        "qualifica_grammaticale": "s.m.inv.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "1i": {
+        "parola": "i",
+        "qualifica_grammaticale": "s.f. e m.inv.",
+        "marca_d_uso": "parola di alta disponibilità"
     },
     "2i": {
         "parola": "i",
@@ -16866,7 +16906,17 @@
     },
     "iugoslavo": {
         "parola": "iugoslavo",
-        "qualifica_grammaticale": "agg., s.m. jeans s.m.inv. karatè s.m.inv.",
+        "qualifica_grammaticale": "agg., s.m.",
+        "marca_d_uso": "parola di alta disponibilità"
+    },
+    "jeans": {
+        "parola": "jeans",
+        "qualifica_grammaticale": "s.m.inv.",
+        "marca_d_uso": "parola di alto uso"
+    },
+    "karatè": {
+        "parola": "karatè",
+        "qualifica_grammaticale": "s.m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "ketchup": {
@@ -16886,8 +16936,13 @@
     },
     "kiwi": {
         "parola": "kiwi",
-        "qualifica_grammaticale": "s.m.inv. là avv.",
+        "qualifica_grammaticale": "s.m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
+    },
+    "là": {
+        "parola": "là",
+        "qualifica_grammaticale": "avv.",
+        "marca_d_uso": "parola fondamentale"
     },
     "1la": {
         "parola": "la",
@@ -17921,8 +17976,13 @@
     },
     "lutto": {
         "parola": "lutto",
-        "qualifica_grammaticale": "s.m. 1ma cong., s.m.inv.",
+        "qualifica_grammaticale": "s.m.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "1ma": {
+        "parola": "ma",
+        "qualifica_grammaticale": "cong., s.m.inv.",
+        "marca_d_uso": "parola fondamentale"
     },
     "maccherone": {
         "parola": "maccherone",
@@ -19986,8 +20046,13 @@
     },
     "1mutuo": {
         "parola": "mutuo",
-        "qualifica_grammaticale": "s.m. nanna s.f.",
+        "qualifica_grammaticale": "s.m.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "nanna": {
+        "parola": "nanna",
+        "qualifica_grammaticale": "s.f.",
+        "marca_d_uso": "parola di alta disponibilità"
     },
     "nano": {
         "parola": "nano",
@@ -20631,7 +20696,12 @@
     },
     "nylon": {
         "parola": "nylon",
-        "qualifica_grammaticale": "s.m.inv. 1o s.f. e m.inv.",
+        "qualifica_grammaticale": "s.m.inv.",
+        "marca_d_uso": "parola di alta disponibilità"
+    },
+    "1o": {
+        "parola": "o",
+        "qualifica_grammaticale": "s.f. e m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "2o": {
@@ -21531,8 +21601,13 @@
     },
     "ozono": {
         "parola": "ozono",
-        "qualifica_grammaticale": "s.m. 1pacchetto s.m.",
+        "qualifica_grammaticale": "s.m.",
         "marca_d_uso": "parola di alta disponibilità"
+    },
+    "1pacchetto": {
+        "parola": "pacchetto",
+        "qualifica_grammaticale": "s.m.",
+        "marca_d_uso": "parola di alto uso"
     },
     "pacco": {
         "parola": "pacco",
@@ -25391,8 +25466,13 @@
     },
     "puzzle": {
         "parola": "puzzle",
-        "qualifica_grammaticale": "s.m.inv. 1qua avv.",
+        "qualifica_grammaticale": "s.m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
+    },
+    "1qua": {
+        "parola": "qua",
+        "qualifica_grammaticale": "avv.",
+        "marca_d_uso": "parola fondamentale"
     },
     "quaderno": {
         "parola": "quaderno",
@@ -25581,7 +25661,12 @@
     },
     "quotidiano": {
         "parola": "quotidiano",
-        "qualifica_grammaticale": "agg., s.m. rabbia s.f.",
+        "qualifica_grammaticale": "agg., s.m.",
+        "marca_d_uso": "parola fondamentale"
+    },
+    "rabbia": {
+        "parola": "rabbia",
+        "qualifica_grammaticale": "s.f.",
         "marca_d_uso": "parola fondamentale"
     },
     "1racchetta": {
@@ -27926,8 +28011,13 @@
     },
     "rutto": {
         "parola": "rutto",
-        "qualifica_grammaticale": "s.m. sabato s.m.",
+        "qualifica_grammaticale": "s.m.",
         "marca_d_uso": "parola di alta disponibilità"
+    },
+    "sabato": {
+        "parola": "sabato",
+        "qualifica_grammaticale": "s.m.",
+        "marca_d_uso": "parola fondamentale"
     },
     "sabbia": {
         "parola": "sabbia",
@@ -32756,8 +32846,13 @@
     },
     "svuotare": {
         "parola": "svuotare",
-        "qualifica_grammaticale": "v.tr. tabaccaio s.m.",
+        "qualifica_grammaticale": "v.tr.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "tabaccaio": {
+        "parola": "tabaccaio",
+        "qualifica_grammaticale": "s.m.",
+        "marca_d_uso": "parola di alta disponibilità"
     },
     "tabella": {
         "parola": "tabella",
@@ -34571,8 +34666,13 @@
     },
     "tuttora": {
         "parola": "tuttora",
-        "qualifica_grammaticale": "avv. 1u s.f. e m.inv.",
+        "qualifica_grammaticale": "avv.",
         "marca_d_uso": "parola di alto uso"
+    },
+    "1u": {
+        "parola": "u",
+        "qualifica_grammaticale": "s.f. e m.inv.",
+        "marca_d_uso": "parola di alta disponibilità"
     },
     "ubriaco": {
         "parola": "ubriaco",
@@ -34906,7 +35006,12 @@
     },
     "utilizzo": {
         "parola": "utilizzo",
-        "qualifica_grammaticale": "s.m. vabbè inter.",
+        "qualifica_grammaticale": "s.m.",
+        "marca_d_uso": "parola di alto uso"
+    },
+    "vabbè": {
+        "parola": "vabbè",
+        "qualifica_grammaticale": "inter.",
         "marca_d_uso": "parola di alto uso"
     },
     "vacanza": {
@@ -35961,8 +36066,13 @@
     },
     "vuoto": {
         "parola": "vuoto",
-        "qualifica_grammaticale": "agg., s.m. wafer s.m.inv.",
+        "qualifica_grammaticale": "agg., s.m.",
         "marca_d_uso": "parola fondamentale"
+    },
+    "wafer": {
+        "parola": "wafer",
+        "qualifica_grammaticale": "s.m.inv.",
+        "marca_d_uso": "parola di alta disponibilità"
     },
     "web": {
         "parola": "web",
@@ -35981,8 +36091,18 @@
     },
     "wurstel": {
         "parola": "wurstel",
-        "qualifica_grammaticale": "s.m.inv. yogurt s.m.inv. 1zaino s.m.",
+        "qualifica_grammaticale": "s.m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
+    },
+    "yogurt": {
+        "parola": "yogurt",
+        "qualifica_grammaticale": "s.m.inv.",
+        "marca_d_uso": "parola di alta disponibilità"
+    },
+    "1zaino": {
+        "parola": "zaino",
+        "qualifica_grammaticale": "s.m.",
+        "marca_d_uso": "parola di alto uso"
     },
     "zampa": {
         "parola": "zampa",
