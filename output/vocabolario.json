@@ -1481,7 +1481,7 @@
     },
     "ammalarsi": {
         "parola": "ammalarsi",
-        "qualifica_grammaticale": "v.pronom. intr.",
+        "qualifica_grammaticale": "v.pronom.intr.",
         "marca_d_uso": "parola di alto uso"
     },
     "ammalato": {
@@ -2741,7 +2741,7 @@
     },
     "assolvere": {
         "parola": "assolvere",
-        "qualifica_grammaticale": "v. tr.",
+        "qualifica_grammaticale": "v.tr.",
         "marca_d_uso": "parola di alto uso"
     },
     "assomigliare": {
@@ -2956,7 +2956,7 @@
     },
     "attingere": {
         "parola": "attingere",
-        "qualifica_grammaticale": "v. tr., v.intr.",
+        "qualifica_grammaticale": "v.tr., v.intr.",
         "marca_d_uso": "parola di alto uso"
     },
     "attirare": {
@@ -6536,7 +6536,7 @@
     },
     "cinque": {
         "parola": "cinque",
-        "qualifica_grammaticale": "agg.num. card.inv., s.m.inv., s.f.pl.",
+        "qualifica_grammaticale": "agg.num.card.inv., s.m.inv., s.f.pl.",
         "marca_d_uso": "parola fondamentale"
     },
     "cinquecento": {
@@ -9166,7 +9166,7 @@
     },
     "cuocere": {
         "parola": "cuocere",
-        "qualifica_grammaticale": "v. tr. e intr.",
+        "qualifica_grammaticale": "v.tr. e intr.",
         "marca_d_uso": "parola di alto uso"
     },
     "cuoco": {
@@ -9816,7 +9816,7 @@
     },
     "2di": {
         "parola": "di",
-        "qualifica_grammaticale": "s.f. e m. inv.",
+        "qualifica_grammaticale": "s.f. e m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "diagnosi": {
@@ -9881,7 +9881,7 @@
     },
     "diciotto": {
         "parola": "diciotto",
-        "qualifica_grammaticale": "agg. num.card.inv., s.m.inv., s.f.pl.",
+        "qualifica_grammaticale": "agg.num.card.inv., s.m.inv., s.f.pl.",
         "marca_d_uso": "parola di alto uso"
     },
     "dieci": {
@@ -10706,7 +10706,7 @@
     },
     "dolersi": {
         "parola": "dolersi",
-        "qualifica_grammaticale": "v.pronom. intr.",
+        "qualifica_grammaticale": "v.pronom.intr.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "dollaro": {
@@ -10971,7 +10971,7 @@
     },
     "duemila": {
         "parola": "duemila",
-        "qualifica_grammaticale": "agg. num.card.inv., s.m.inv.",
+        "qualifica_grammaticale": "agg.num.card.inv., s.m.inv.",
         "marca_d_uso": "parola di alto uso"
     },
     "dunque": {
@@ -18751,7 +18751,7 @@
     },
     "mattone": {
         "parola": "mattone",
-        "qualifica_grammaticale": "s.m., agg. inv., s.m.inv.",
+        "qualifica_grammaticale": "s.m., agg.inv., s.m.inv.",
         "marca_d_uso": "parola di alto uso"
     },
     "maturare": {
@@ -19261,7 +19261,7 @@
     },
     "mila": {
         "parola": "mila",
-        "qualifica_grammaticale": "agg.num. card.inv.",
+        "qualifica_grammaticale": "agg.num.card.inv.",
         "marca_d_uso": "parola fondamentale"
     },
     "milanese": {
@@ -19331,7 +19331,7 @@
     },
     "1mini": {
         "parola": "mini",
-        "qualifica_grammaticale": "agg. inv.",
+        "qualifica_grammaticale": "agg.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "miniera": {
@@ -20331,7 +20331,7 @@
     },
     "nessuno": {
         "parola": "nessuno",
-        "qualifica_grammaticale": "agg. indef., pron.indef.m., s.m.",
+        "qualifica_grammaticale": "agg.indef., pron.indef.m., s.m.",
         "marca_d_uso": "parola fondamentale"
     },
     "1nettare": {
@@ -21686,7 +21686,7 @@
     },
     "paglia": {
         "parola": "paglia",
-        "qualifica_grammaticale": "s.f., s.m.inv., agg. inv.",
+        "qualifica_grammaticale": "s.f., s.m.inv., agg.inv.",
         "marca_d_uso": "parola di alto uso"
     },
     "pagliaio": {
@@ -23521,7 +23521,7 @@
     },
     "pisello": {
         "parola": "pisello",
-        "qualifica_grammaticale": "s.m., s.m.inv., agg. inv.",
+        "qualifica_grammaticale": "s.m., s.m.inv., agg.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "pisolino": {
@@ -25351,7 +25351,7 @@
     },
     "punk": {
         "parola": "punk",
-        "qualifica_grammaticale": "agg. inv., s.m. e f.inv.",
+        "qualifica_grammaticale": "agg.inv., s.m. e f.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "1punta": {
@@ -25516,7 +25516,7 @@
     },
     "quale": {
         "parola": "quale",
-        "qualifica_grammaticale": "agg.interr., agg.escl., agg.rel., agg.indef., pron. interr., pron.rel., pron.indef., avv., s.m.",
+        "qualifica_grammaticale": "agg.interr., agg.escl., agg.rel., agg.indef., pron.interr., pron.rel., pron.indef., avv., s.m.",
         "marca_d_uso": "parola fondamentale"
     },
     "qualificare": {
@@ -25561,7 +25561,7 @@
     },
     "1quanto": {
         "parola": "quanto",
-        "qualifica_grammaticale": "agg. interr., agg.escl., agg.rel., pron.interr., pron.escl., pron.rel., avv., s.m.",
+        "qualifica_grammaticale": "agg.interr., agg.escl., agg.rel., pron.interr., pron.escl., pron.rel., avv., s.m.",
         "marca_d_uso": "parola fondamentale"
     },
     "quaranta": {
@@ -25591,7 +25591,7 @@
     },
     "quattordici": {
         "parola": "quattordici",
-        "qualifica_grammaticale": "agg.num.card.inv., s.m.inv., s.f. pl.",
+        "qualifica_grammaticale": "agg.num.card.inv., s.m.inv., s.f.pl.",
         "marca_d_uso": "parola di alto uso"
     },
     "quattro": {
@@ -26791,7 +26791,7 @@
     },
     "ridotto": {
         "parola": "ridotto",
-        "qualifica_grammaticale": "p. pass., agg., s.m.",
+        "qualifica_grammaticale": "p.pass., agg., s.m.",
         "marca_d_uso": "parola di alto uso"
     },
     "ridurre": {
@@ -29911,7 +29911,7 @@
     },
     "sette": {
         "parola": "sette",
-        "qualifica_grammaticale": "agg.num.card. inv., s.m.inv., s.f.pl.",
+        "qualifica_grammaticale": "agg.num.card.inv., s.m.inv., s.f.pl.",
         "marca_d_uso": "parola fondamentale"
     },
     "settembre": {
@@ -30171,7 +30171,7 @@
     },
     "2si": {
         "parola": "si",
-        "qualifica_grammaticale": "pron.pers. di terza pers.m. e f. sing. e pl.",
+        "qualifica_grammaticale": "pron.pers. di terza pers.m. e f.sing. e pl.",
         "marca_d_uso": "parola fondamentale"
     },
     "sia": {
@@ -31396,7 +31396,7 @@
     },
     "specializzato": {
         "parola": "specializzato",
-        "qualifica_grammaticale": "p. pass., agg., s.m.",
+        "qualifica_grammaticale": "p.pass., agg., s.m.",
         "marca_d_uso": "parola di alto uso"
     },
     "specialmente": {
@@ -33971,7 +33971,7 @@
     },
     "tortora": {
         "parola": "tortora",
-        "qualifica_grammaticale": "s.f., agg. inv., s.m.inv.",
+        "qualifica_grammaticale": "s.f., agg.inv., s.m.inv.",
         "marca_d_uso": "parola di alta disponibilità"
     },
     "tosare": {
@@ -34596,7 +34596,7 @@
     },
     "tuo": {
         "parola": "tuo",
-        "qualifica_grammaticale": "agg.poss. di seconda pers.sing., pron. poss. di seconda pers.sing.",
+        "qualifica_grammaticale": "agg.poss. di seconda pers.sing., pron.poss. di seconda pers.sing.",
         "marca_d_uso": "parola fondamentale"
     },
     "1tuono": {
@@ -34886,7 +34886,7 @@
     },
     "uno": {
         "parola": "uno",
-        "qualifica_grammaticale": "agg.num.card., s.m.inv., art.indet.m.sing., pron. indef.m.",
+        "qualifica_grammaticale": "agg.num.card., s.m.inv., art.indet.m.sing., pron.indef.m.",
         "marca_d_uso": "parola fondamentale"
     },
     "uomo": {

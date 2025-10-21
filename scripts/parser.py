@@ -116,6 +116,24 @@ def text_parser():
     return parole
 
 
+def remove_wrong_blanks(field: str) -> str:
+    """Remove whitespaces introduced by parsing carriage return"""
+    aux = field.split()
+    if len(aux) <= 1:
+        return field
+    wrong_blanks = [0]
+    for i in range(len(aux) - 1):
+        if aux[i][-1] == "." and (aux[i + 1][-1] == "." or aux[i + 1][-2:] == ".,"):
+            wrong_blanks.append(i + 1)
+    result = ""
+    for i in range(len(aux)):
+        if i in wrong_blanks:
+            result += aux[i]
+        else:
+            result += " " + aux[i]
+    return result
+
+
 def livello1(field1, field2):
     return field2.startswith(field1) or " " + field1 in field2
 
@@ -164,6 +182,11 @@ for word in clean_words[1:]:
         words_dict[aux[0]]["marca_d_uso"] = "parola di alta disponibilità"
     else:
         words_dict[aux[0]]["marca_d_uso"] = "parola di alto uso"
+
+for lemma in words_dict:
+    words_dict[lemma]["qualifica_grammaticale"] = remove_wrong_blanks(
+        words_dict[lemma]["qualifica_grammaticale"]
+    )
 
 with open("output/vocabolario.json", "w", encoding="utf-8") as f:
     json.dump(words_dict, f, ensure_ascii=False, indent=4)
